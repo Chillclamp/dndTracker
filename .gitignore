@@ -2,3 +2,4 @@ testEnv
 __pycache__
 .env
 TEMPLATE.md
+TODO.md
