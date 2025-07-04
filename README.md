@@ -16,7 +16,13 @@
 
 
 ## 1. Characters
-
+### 1.1 - classes
+| Sub-class | Chance | Race class |
+|-|-|-|
+| Elven | 25% | - |
+| Dwarf | 25% | - |
+| Human | 45% | - |
+| Black | 5% | - |
 
 ## 2. Items
 ### 2.1 - Food?
