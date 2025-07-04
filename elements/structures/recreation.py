@@ -1,0 +1,7 @@
+# religion
+
+# pub
+
+# brothel
+
+# areana
