@@ -28,8 +28,7 @@ class high_elf(elf):
 # | Sub-class | Chance | Race class |
 # |-|-|-|
 # | Elven | 25% | wood elf, high elf  |
-# | Dwarf | 25% | mountain dwarf  |
+# | Dwarf | 30% | mountain dwarf  |
 # | Human | 45% | - |
-# | Black | 5% | - |
 
 
