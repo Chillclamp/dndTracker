@@ -1,4 +1,2 @@
-testEnv
 __pycache__
-.env
-TEMPLATE.md
+local_dir/

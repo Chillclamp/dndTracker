@@ -49,7 +49,7 @@
 | bow (long) | Long-range weapon | - | - | - | - |
 | Sword | Short-range weapon | - | - | - | - |
 
-### Other
+### 2.5 - Other
 
 
 ## 3. Structures
@@ -78,13 +78,15 @@
 | Mansion | - | - | - |
 
 ### 3.4 - Trade
+Can sell any item. Usually at a higher cost than the workshop/ production location (and of lowwer quality?)
 | Structure | Spawn chance | Size | Items traded | Trade class | Cost modification |
 |-|-|-|-|-|-|
 | Stalls | 50% | Small  | 1 - 10 | 1 | Default x1 |
 | Shop | 40% | Medium | 5 - 30 | 1 - 5 | Default x1 |
-| Market | 10% | Large | 15 -50 | --- | Default x1 |
+| Market | 10% | Large | 15 -50 | 20 - 50 | Default x1 |
 
 ### 3.5 - Workshops
+Will only sell items made at that location. Usually at a discounted price (and of better quality?)
 | Structure | Spawn chance | - | - |
 |-|-|-|-|
 | Blacksmith | - | - | - |

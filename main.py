@@ -5,10 +5,10 @@ import config
 from webServer import webServer
 
 
-def main(dndTrackerConfig: config.dndTrackerConfig):
+def main(options: config.dndTrackerConfig):
     # Start webServer 
     os.chdir('webServer')
-    web = webServer.start_server(dndTrackerConfig.host_ip, dndTrackerConfig.host_port)
+    web = webServer.start_server(options.host_ip, options.host_port)
 
 if __name__ == '__main__':
     main(config.dndTrackerConfig())
