@@ -1,19 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>D&D DM Aid — Map</title>
+<link rel="stylesheet" href="/main.css">
 </head>
-<style>
-    * {
-        font-family: 'Courier New', Courier, monospace;
-        background-color: #1a7531;
-        color: #bbbbbb;
-    }
-</style>
 <body>
-    <h1>THIS IS A PAGE</h1>
+<div id="app" class="layout">
+<aside class="sidebar">
+<h2>Settlements</h2>
+<div id="settlement-list" class="list"></div>
+</aside>
 
+
+<main class="center">
+<div class="map-wrap">
+<!-- map-image is background; markers positioned absolutely -->
+<!-- <div id="map" class="map" style="background-image: url('/map.png')"> -->
+<div id="markers" class="markers"></div>
+</div>
+</div>
+
+
+<section id="details" class="details">
+<h3>Selected Settlement</h3>
+<div id="detail-content">Select a settlement from the left.</div>
+</section>
+</main>
+</div>
+
+
+<script src="main.js"></script>
 </body>
 </html>

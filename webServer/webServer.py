@@ -98,7 +98,18 @@ class serve(BaseHTTPRequestHandler):
 def start_server(host, port):
     # start server
     # printGreen(f"up on: {host}:{port}")
+    
+    # Get the full path of the current file
+    current_file = os.path.abspath(__file__)
+    # Get the directory containing the file
+    current_dir = os.path.dirname(current_file)
+    # Change the working directory to that directory
+    os.chdir(current_dir)
+
     httpd = HTTPServer((host, port), serve)
     httpd.serve_forever()
 
     #printRed("server fail")
+
+if __name__ == '__main__':
+    start_server('127.0.0.1', 80)

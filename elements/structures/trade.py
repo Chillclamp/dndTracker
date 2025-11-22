@@ -163,7 +163,7 @@ def main(trade_struc_type = None):
     if trade_struc_type == 'stall':
         # all option
         final_struct = stall(
-            name = uuid.uuid4(), 
+            name = '<name>', 
             location = 'x,y?',
             num_trades_min = options.stall_trade_amount_min,
             num_trades_max = options.stall_trade_amount_max,
@@ -175,13 +175,13 @@ def main(trade_struc_type = None):
     elif trade_struc_type == 'shop':
         # use default
         final_struct = shop(
-            name = uuid.uuid4(), 
+            name = '<name>', 
             location = 'x,y?',
         )
     elif trade_struc_type == 'market':
         # use default
         final_struct = market(
-            name = uuid.uuid4(), 
+            name = '<name>', 
             location = 'x,y?',
         )
 
